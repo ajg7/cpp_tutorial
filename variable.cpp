@@ -9,12 +9,12 @@ int main() {
   string helloWorld = "Hello World!";
   bool isThisTrue = true;
   
-  cout << "num: " << num << endl;
-  cout << "numDeci: " << numDeci << endl;
-  cout << "floatNum: " << floatNum << endl;
-  cout << "letter: " << letter << endl;
-  cout << "helloWorld: " << helloWorld << endl;
-  cout << "isThisTrue: " << isThisTrue << endl;
+  cout << "num: " << num << '\n';
+  cout << "numDeci: " << numDeci << '\n';
+  cout << "floatNum: " << floatNum << '\n';
+  cout << "letter: " << letter << '\n';
+  cout << "helloWorld: " << helloWorld << '\n';
+  cout << "isThisTrue: " << isThisTrue << '\n';
   
   return 0;
 }

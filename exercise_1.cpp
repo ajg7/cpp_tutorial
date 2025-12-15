@@ -12,19 +12,19 @@ int main() {
   string name = "AJ Gebara";
   int age = 32;
   float height = 6.0;
-  cout << name << endl;
-  cout << age << endl;
-  cout << height << endl;
+  cout << name << '\n';
+  cout << age << '\n';
+  cout << height << '\n';
 
   int num = 221;
   int num2 = 31;
   int num3 = 12;
-  cout << num + num2 + num3 << endl;
+  cout << num + num2 + num3 << '\n';
   float price = 12.21;
   int quantity = 5;
-  cout << price * quantity << endl;
+  cout << price * quantity << '\n';
   char grade = 'A';
-  cout << "Your grade is: " << grade << endl;
+  cout << "Your grade is: " << grade << '\n';
   
   part2();
   part3();
@@ -36,44 +36,44 @@ int main() {
 void part2() {
   string name;
   int age;
-  cout << "Enter your name: " << endl;
+  cout << "Enter your name: " << '\n';
   cin >> name;
-  cout << "Enter your age: " << endl;
+  cout << "Enter your age: " << '\n';
   cin >> age;
-  cout << "Hello " << name << ", you are " << age << " years old!" << endl;
+  cout << "Hello " << name << ", you are " << age << " years old!" << '\n';
 
   int num1, num2;
-  cout << "Enter first number: " << endl;
+  cout << "Enter first number: " << '\n';
   cin >> num1;
-  cout << "Enter second number: " << endl;
+  cout << "Enter second number: " << '\n';
   cin >> num2;
-  cout << "Sum: " << num1 + num2 << endl;
+  cout << "Sum: " << num1 + num2 << '\n';
 
   float temperature;
-  cout << "Enter temperature: " << endl;
+  cout << "Enter temperature: " << '\n';
   cin >> temperature;
-  cout << "Temperature is: " << temperature << " C" << endl;
+  cout << "Temperature is: " << temperature << " C" << '\n';
 
   int rollNumber;
   string studentName;
   float gpa;
-  cout << "Enter roll number: " << endl;
+  cout << "Enter roll number: " << '\n';
   cin >> rollNumber;
-  cout << "Enter name: " << endl;
+  cout << "Enter name: " << '\n';
   cin >> studentName;
-  cout << "Enter GPA: " << endl;
+  cout << "Enter GPA: " << '\n';
   cin >> gpa;
-  cout << "Roll Number: " << rollNumber << endl;
-  cout << "Name: " << studentName << endl;
-  cout << "GPA: " << gpa << endl;
+  cout << "Roll Number: " << rollNumber << '\n';
+  cout << "Name: " << studentName << '\n';
+  cout << "GPA: " << gpa << '\n';
 
   float length, width;
-  cout << "Enter length of rectangle: " << endl;
+  cout << "Enter length of rectangle: " << '\n';
   cin >> length;
-  cout << "Enter width of rectangle: " << endl;
+  cout << "Enter width of rectangle: " << '\n';
   cin >> width;
-  cout << "Area: " << length * width << endl;
-  cout << "Perimeter: " << 2 * (length + width) << endl;
+  cout << "Area: " << length * width << '\n';
+  cout << "Perimeter: " << 2 * (length + width) << '\n';
 }
 
 void part3() {
@@ -81,78 +81,78 @@ void part3() {
   int grade;
   int num2;
 
-  cout << "Enter a number: " << endl;
+  cout << "Enter a number: " << '\n';
   cin >> num;
 
-  if (num % 2 == 0) cout << "Number is even" << endl;
-  else cout << "Number is odd" << endl;
+  if (num % 2 == 0) cout << "Number is even" << '\n';
+  else cout << "Number is odd" << '\n';
 
-  cout << "Enter your grade: " << endl;
+  cout << "Enter your grade: " << '\n';
   cin >> grade;
 
-  if (grade >= 50) cout << "Positive" << endl;
-  else cout << "Try again next time" << endl;
+  if (grade >= 50) cout << "Positive" << '\n';
+  else cout << "Try again next time" << '\n';
 
-  cout << "Enter another number: " << endl;
+  cout << "Enter another number: " << '\n';
   cin >> num2;
 
-  if (num2 > 0) cout << "Positive" << endl;
-  else if (num2 < 0) cout << "Negative" << endl;
-  else cout << "Zero" << endl;
+  if (num2 > 0) cout << "Positive" << '\n';
+  else if (num2 < 0) cout << "Negative" << '\n';
+  else cout << "Zero" << '\n';
 }
 
 void part4() {
   string username;
   string password;
-  cout << "Enter a username: " << endl;
+  cout << "Enter a username: " << '\n';
   cin >> username;
-  cout << "Enter a password: " << endl;
+  cout << "Enter a password: " << '\n';
   cin >> password;
 
-  if (username == "admin" && password == "1234") cout << "Login successful" << endl;
-  else cout << "Invalid login" << endl;
+  if (username == "admin" && password == "1234") cout << "Login successful" << '\n';
+  else cout << "Invalid login" << '\n';
 
   float mark1, mark2, mark3;
-  cout << "Enter three marks: " << endl;
+  cout << "Enter three marks: " << '\n';
   cin >> mark1 >> mark2 >> mark3;
   float percentage = (mark1 + mark2 + mark3) / 3;
-  cout << "Percentage: " << percentage << "%" << endl;
+  cout << "Percentage: " << percentage << "%" << '\n';
   
-  if (percentage >= 80) cout << "A grade" << endl;
-  else if (percentage >= 60) cout << "B grade" << endl;
-  else if (percentage >= 40) cout << "C grade" << endl;
-  else cout << "Fail" << endl;
+  if (percentage >= 80) cout << "A grade" << '\n';
+  else if (percentage >= 60) cout << "B grade" << '\n';
+  else if (percentage >= 40) cout << "C grade" << '\n';
+  else cout << "Fail" << '\n';
 
   float num1, num2;
   char op;
-  cout << "Enter first number: " << endl;
+  cout << "Enter first number: " << '\n';
   cin >> num1;
-  cout << "Enter operator (+, -, *, /): " << endl;
+  cout << "Enter operator (+, -, *, /): " << '\n';
   cin >> op;
-  cout << "Enter second number: " << endl;
+  cout << "Enter second number: " << '\n';
   cin >> num2;
   
-  if (op == '+') cout << "Result: " << num1 + num2 << endl;
-  else if (op == '-') cout << "Result: " << num1 - num2 << endl;
-  else if (op == '*') cout << "Result: " << num1 * num2 << endl;
+  if (op == '+') cout << "Result: " << num1 + num2 << '\n';
+  else if (op == '-') cout << "Result: " << num1 - num2 << '\n';
+  else if (op == '*') cout << "Result: " << num1 * num2 << '\n';
   else if (op == '/') {
-    if (num2 != 0) cout << "Result: " << num1 / num2 << endl;
-    else cout << "Error: Division by zero!" << endl;
+    if (num2 != 0) cout << "Result: " << num1 / num2 << '\n';
+    else cout << "Error: Division by zero!" << '\n';
   }
-  else cout << "Invalid operator!" << endl;
+  else cout << "Invalid operator!" << '\n';
 
   float income;
-  cout << "Enter income: " << endl;
+  cout << "Enter income: " << '\n';
   cin >> income;
   
-  if (income > 50000) cout << "High income" << endl;
-  else cout << "Low income" << endl;
+  if (income > 50000) cout << "High income" << '\n';
+  else cout << "Low income" << '\n';
 
   int hours;
-  cout << "\nEnter hours studied today: " << endl;
+  cout << "Enter hours studied today: " << '\n';
   cin >> hours;
   
-  if (hours >= 4) cout << "Great!" << endl;
-  else if (hours >= 2) cout << "Good" << endl;
-  else cout << "Try to study more!" << endl;
+  if (hours >= 4) cout << "Great!" << '\n';
+  else if (hours >= 2) cout << "Good" << '\n';
+  else cout << "Try to study more!" << '\n';
 }
